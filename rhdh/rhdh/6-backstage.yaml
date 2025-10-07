@@ -24,5 +24,5 @@ spec:
     replicas: 1
     route:
       enabled: true
-      host: rhdh.apps.cluster-<GUID>.dynamic.redhatworkshops.io
-      subdomain: apps.cluster-<GUID>.dynamic.redhatworkshops.io
+      host: rhdh.apps.cluster-db131a98-9636-4a3d-a6a2-2d2e6482e986.apps.ocp-knowitno.cncs.dk
+      subdomain: apps.cluster-db131a98-9636-4a3d-a6a2-2d2e6482e986.apps.ocp-knowitno.cncs.dk

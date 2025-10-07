@@ -8,14 +8,14 @@ data:
   app-config.yaml: |
     app:
       title: Red Hat Developer Hub
-      baseUrl: https://rhdh.apps.cluster-<GUID>.dynamic.redhatworkshops.io
+      baseUrl: https://rhdh.apps.cluster-db131a98-9636-4a3d-a6a2-2d2e6482e986.apps.ocp-knowitno.cncs.dk
     backend:
       auth:
         keys:
           - secret: ${BACKEND_SECRET}
-      baseUrl: https://rhdh.apps.cluster-<GUID>.dynamic.redhatworkshops.io
+      baseUrl: https://rhdh.apps.cluster-db131a98-9636-4a3d-a6a2-2d2e6482e986.apps.ocp-knowitno.cncs.dk
       cors:
-        origin: https://rhdh.apps.cluster-<GUID>.dynamic.redhatworkshops.io
+        origin: https://rhdh.apps.cluster-db131a98-9636-4a3d-a6a2-2d2e6482e986.apps.ocp-knowitno.cncs.dk
       reading:
         allow:
           - host: raw.githubusercontent.com
@@ -26,10 +26,10 @@ data:
       providers:
         oidc:
           production:
-            metadataUrl: "https://keycloak-rhdh-operator.apps.cluster-<GUID>.dynamic.redhatworkshops.io/realms/rhdh"
+            metadataUrl: "https://keycloak-rhdh-operator.apps.cluster-db131a98-9636-4a3d-a6a2-2d2e6482e986.apps.ocp-knowitno.cncs.dk/realms/rhdh"
             clientId: rhdh
             clientSecret: developer-hub-secret
-            callbackUrl: https://rhdh.apps.cluster-<GUID>.dynamic.redhatworkshops.io/api/auth/oidc/handler/frame
+            callbackUrl: https://rhdh.apps.cluster-db131a98-9636-4a3d-a6a2-2d2e6482e986.apps.ocp-knowitno.cncs.dk/api/auth/oidc/handler/frame
             prompt: login
             signIn:
               resolvers:
@@ -41,7 +41,7 @@ data:
       providers:
         keycloakOrg:
           default:
-            baseUrl: "https://keycloak-rhdh-operator.apps.cluster-<GUID>.dynamic.redhatworkshops.io"
+            baseUrl: "https://keycloak-rhdh-operator.apps.cluster-db131a98-9636-4a3d-a6a2-2d2e6482e986.apps.ocp-knowitno.cncs.dk"
             loginRealm: "rhdh"
             realm: "rhdh"
             clientId: rhdh

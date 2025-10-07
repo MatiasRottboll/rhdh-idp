@@ -24,8 +24,8 @@ spec:
         linkOnly: false
         firstBrokerLoginFlowAlias: first broker login
         config:
-          clientId: "<github-oauth-client-id>"
-          clientSecret: "<github-oauth-client-secret>"
+          clientId: "Ov23likPVgYpwDUNEVt5"
+          clientSecret: "6cbec0d7211c1aba27ae500dc726f9b7ab2c079c"
           defaultScope: "user:email"
     clients:
       - clientId: rhdh
@@ -35,10 +35,10 @@ spec:
         protocol: openid-connect
         publicClient: false
         redirectUris:
-          - "https://rhdh.apps.cluster-<GUID>.dynamic.redhatworkshops.io/api/auth/*"
-        rootUrl: "https://rhdh.apps.cluster-<GUID>.dynamic.redhatworkshops.io"
-        adminUrl: "https://rhdh.apps.cluster-<GUID>.dynamic.redhatworkshops.io"
-        baseUrl: "https://rhdh.apps.cluster-<GUID>.dynamic.redhatworkshops.io"
+          - "https://rhdh.apps.cluster-db131a98-9636-4a3d-a6a2-2d2e6482e986.apps.ocp-knowitno.cncs.dk/api/auth/*"
+        rootUrl: "https://rhdh.apps.cluster-db131a98-9636-4a3d-a6a2-2d2e6482e986.apps.ocp-knowitno.cncs.dk"
+        adminUrl: "https://rhdh.apps.cluster-db131a98-9636-4a3d-a6a2-2d2e6482e986.apps.ocp-knowitno.cncs.dk"
+        baseUrl: "https://rhdh.apps.cluster-db131a98-9636-4a3d-a6a2-2d2e6482e986.apps.ocp-knowitno.cncs.dk"
         webOrigins:
           - "+"
         secret: "developer-hub-secret"
