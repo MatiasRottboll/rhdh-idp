@@ -65,7 +65,7 @@ data:
         - type: config
           clusters:
             - name: openshift-cluster
-              url: https://api.cluster-<GUID>.dynamic.redhatworkshops.io:6443
+              url: https://api.cluster-db131a98-9636-4a3d-a6a2-2d2e6482e986.apps.ocp-knowitno.cncs.dk:6443
               authProvider: serviceAccount
               skipTLSVerify: true
               serviceAccountToken: ${K8S_SA_TOKEN}
